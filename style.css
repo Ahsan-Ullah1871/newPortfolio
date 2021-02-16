@@ -58,6 +58,15 @@ header {
     height:90px;
 }
 
+#toggler{
+   background-color:  chocolate;
+
+  }
+  .navbar-toggler{
+   margin: 0 auto;
+   color: antiquewhite;
+  }
+
 #nav {
 	background-color: #dc143c;
       position: fixed;
