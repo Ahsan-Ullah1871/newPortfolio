@@ -1,0 +1,229 @@
+/* font-family: 'Arvo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Reggae One', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Zilla Slab', serif; */
+
+/* common  css*/
+
+.highlight {
+	color: #dc143c;
+}
+
+section {
+	min-height: 600px;
+	margin-top: 80px;
+}
+
+/* Button */
+.myButton {
+	background-color: crimson;
+	color: azure;
+	padding: 15px 25px;
+	font-size: 1.5em;
+    border: none;
+	border-radius: 20px;
+	font-family: "Satisfy", cursive;
+}
+.myButton:hover {
+	background-color: rgba(220, 20, 60, 0);
+	border: 2px solid crimson;
+	border-radius: 20px;
+	color: crimson;
+
+}
+
+/* section header */
+.section-header h2 {
+	font-family: "Reggae One", cursive;
+	font-size: 3em;
+    color: coral;
+}
+.section-header h4 {
+	font-family: "Zilla Slab", serif;
+	color: #dc143c;
+}
+
+/*  */
+
+header {
+	background-image: url(images/global-connections.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+#logo{
+    width: 100px;
+    height:90px;
+}
+
+#nav {
+	background-color: #dc143c;
+      position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+li a {
+	font-family: "EB Garamond", serif;
+	color: rgb(251, 251, 251);
+	font-weight: bold;
+	font-size: 20px;
+}
+li a:hover {
+	color: khaki;
+}
+
+
+
+/* main */
+.main-text {
+	 padding: 10%;
+}
+.main-text h3,
+.main-text h5 {
+	font-family: "Arvo", serif;
+	color: azure;
+}
+.main-text h1 {
+	color: aliceblue;
+	font-family: "EB Garamond", serif;
+	font-size: 4em;
+}
+
+/* About */
+
+
+
+
+.my-image img {
+	width: 100%;
+}
+
+.about-text h2 {
+	font-family: "Arvo", serif;
+}
+.about-text p {
+	font-family: "EB Garamond", serif;
+	font-size: 20px;
+}
+
+
+/* My Skills */
+#My-skills{
+    background-image: url(images/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+
+.skills-text h2 {
+	font-family: "Arvo", serif;
+        color: #f6f6f6;
+
+}
+.skills-text p {
+	font-family: "EB Garamond", serif;
+	font-size: 20px;
+        color: #f6f6f6;
+
+}
+
+
+
+/*  My services */
+
+
+.servicesCards img {
+	width: 80%;
+	height: 230px;
+	border-radius: 20px;
+	padding: 10px;
+}
+.servicesCards .card {
+	border: none;
+	border-radius: 20px;
+}
+
+.service-box {
+	background-color: coral;
+	border-radius: 20px;
+	text-align: center;
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	font-family: "Zilla Slab", serif;
+	transition: width  0.5s, height 1s, color 1s, font-size 1s;
+}
+
+.service-box:hover {
+	width: 100%;
+	height: 410px;
+	color: #f6f6f6;
+	font-size: 20px;
+}
+
+/* projects */
+
+
+.project-cards .card {
+	background-color: #dc143c;
+	overflow: hidden;
+}
+
+.project-cards .card:hover .project-image img {
+	transform: translateX(90%);
+	transition: transform 2s;
+}
+
+.project-details {
+	position: absolute;
+	display: none;
+	width: 70%;
+	color: #f6f6f6;
+	font-family: "Zilla Slab", serif;
+	text-align: center;
+}
+.project-cards .card:hover .project-details {
+	display: block;
+	font-size: 20px;
+}
+
+/* contact */
+
+
+.contact-text h4 {
+	font-family: "Zilla Slab", serif;
+	font-size: 2em;
+}
+.contact-text p {
+	font-family: "EB Garamond", serif;
+	font-size: 20px;
+}
+
+.message-box h2 {
+	font-family: "Satisfy", cursive;
+	font-size: 3em;
+}
+
+#Name-box {
+	width: 60%;
+	height: 30px;
+	border: coral 2px solid;
+	margin-bottom: 10px;
+}
+#email-box {
+	width: 55%;
+	height: 30px;
+	border: coral 2px solid;
+}
+
+#text-box {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 90px;
+	border: coral 2px solid;
+}
